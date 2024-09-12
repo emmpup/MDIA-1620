@@ -1,14 +1,11 @@
 # MDIA-1620
 For my MDIA 1620 code.
 
-## Aha moments:
-1. cd ~ brings you to your home/main folder
-2. dir or ls lets you see everything inside of a folder you are at
-3. cd .. brings you back to your previous folder
+By Emily Misola
 
-## Things that are still unclear
-1. Why would you use the terminal to find folders instead of the regular folder interface?
-2. How repositories work and what they mean
+## Learnings from 3-2-1's
+- type in mdn at the end of what you are searching when searching stuff up to find a credible, up to date source
+- mkdir (folder name) - make a new folder (directory)
+- touch (file name) - make a new file
 
-## word for how I'm feeling about all this
-- optimistic
+![ham and cheese sandwhich](https://www.simplyrecipes.com/thmb/KDRUgnhl-Y1_7wvlr7PZbZoXWms=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__04__green-eggs-ham-sandwich-horiz-a-1800-bc6c3c7daef44a5aa31b5d8ae3c039ad.jpg)
