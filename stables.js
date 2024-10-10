@@ -41,3 +41,36 @@ if (isHorseInStable) {
 } else {
     console.log(horseName + " is outside")
 }
+
+// Lesson-6 Code
+// Horse = ["name", age, isInside, "nickname"]
+let horseOne = [horseName, horseAge, isHorseInStable, horseNickname];
+let horseTwo = ["Strawberry", 2, false, "Pie"];
+
+let horseNames = [horseName, "Strawberry", "Banana"];
+let horseAges = [horseAge, 2, 10];
+let horseNicknames = [horseNickname, "Pie", "Peel"];
+let areHorsesInside = [isHorseInStable, false, true];
+let checkHorsesInside = [];
+let horseIntro = `There are ${horseNames.length} horses staying at my stables: ${horseNames[0]}, ${horseNames[1]}, and ${horseNames[2]}!`;
+console.log(horseIntro);
+
+if (areHorsesInside[0] == true) {
+    checkHorsesInside.push("inside");
+} else {
+    checkHorsesInside.push("outside");
+}
+
+if (areHorsesInside[1] == true) {
+    checkHorsesInside.push("inside");
+} else {
+    checkHorsesInside.push("outside");
+}
+
+if (areHorsesInside[2] == true) {
+    checkHorsesInside.push("inside");
+} else {
+    checkHorsesInside.push("outside");
+}
+
+console.log(`${horseNames[0]} is ${checkHorsesInside[0]}, ${horseNames[1]} is ${checkHorsesInside[1]}, and ${horseNames[2]} is ${checkHorsesInside[2]}`)
