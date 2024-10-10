@@ -14,4 +14,15 @@ By Emily Misola
 ### 1 word for how you're feeling:
 - releif
 
+## Lesson 6 
+### 3 confusing things:
+1. What am I supposed to say when reviewing code?
+2. Is there a way to see what someone else has said when reviewing code?
+3. n/a
+
+### 3 things I have a solid understanding of:
+1. Variables
+2. Operators
+3. Console.log
+
 ![ham and cheese sandwhich](https://www.simplyrecipes.com/thmb/KDRUgnhl-Y1_7wvlr7PZbZoXWms=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__04__green-eggs-ham-sandwich-horiz-a-1800-bc6c3c7daef44a5aa31b5d8ae3c039ad.jpg)
