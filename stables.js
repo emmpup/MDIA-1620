@@ -55,6 +55,7 @@ let checkHorsesInside = [];
 let horseIntro = `There are ${horseNames.length} horses staying at my stables: ${horseNames[0]}, ${horseNames[1]}, and ${horseNames[2]}!`;
 console.log(horseIntro);
 
+
 if (areHorsesInside[0] == true) {
     checkHorsesInside.push("inside");
 } else {
@@ -74,3 +75,25 @@ if (areHorsesInside[2] == true) {
 }
 
 console.log(`${horseNames[0]} is ${checkHorsesInside[0]}, ${horseNames[1]} is ${checkHorsesInside[1]}, and ${horseNames[2]} is ${checkHorsesInside[2]}`)
+
+
+// lesson 7
+
+function logHorseNicknames(horse, friend) {
+    const string = `${horseNames[horse]}'s nickname is ${horseNicknames[horse]}, and they have a friend named ${horseNames[friend]}, who is nicknamed ${horseNicknames[friend]}!`;
+    console.log(string);
+}
+
+logHorseNicknames(1, 2);
+
+function tidyLocation(horse) {
+    if(areHorsesInside[horse]) {
+        return horseNames[horse] + " is inside.";
+    }
+
+    return horseNames[horse] + " is outside.";
+}
+
+console.log(tidyLocation(0));
+console.log(tidyLocation(1));
+console.log(tidyLocation(2));
